@@ -11,9 +11,18 @@ h2{
     font-size: 45px;
     font-weight: 700;
 }
+h4{
+    font-size: 20px;
+}
+small{
+    font-size: 20px;
+}
 p{
     font-size: 16px;
     color: #727272;
+}
+span{
+    color: #FF900E;
 }
 .text-gray{
     color: #727272;
@@ -61,3 +70,61 @@ nav a{
 header img{
     margin: 30px 0;
 }
+/* our-features section start here  */
+.our-features{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+}
+.our-features > div{
+    flex: 1;
+}
+.img-collage{
+    display: flex;
+}
+.img-collage img{
+    max-width: 342px;
+    margin: 24px;
+}
+.features-discription{
+    margin: 30px;
+}
+.features-discription p{
+    padding: 32px 0;
+}
+/* features-you-will section start here  */
+.features-you-will{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+    margin: 100px 0;
+    position: relative;
+}
+.architect-btn {
+    position: absolute;
+    bottom: -45px;
+    left: 45%;
+    padding: 40px 30px;
+}
+.features-you-will section{
+    flex: 1;
+}
+.first-div p{
+    padding: 30px 0;
+}
+.first-div h2{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.common-div{
+    box-sizing: border-box;
+    padding: 25px;
+    margin: 20px;
+    box-shadow: 5px 5px 15px #ebebeb, -5px -5px 15px #ebebeb;
+}
+.common-div p{
+    padding-top: 20px;
+}
+/* some fact section start here  */
