@@ -128,3 +128,49 @@ header img{
     padding-top: 20px;
 }
 /* some fact section start here  */
+.some-fact{
+    padding: 100px 0;
+}
+.some-fact_divs{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.some-fact_div{
+    padding: 30px;
+    border: 2px solid #FF900E;
+    border-radius: 5px;
+}
+.some-fact_div h2{
+    padding: 10px 0;
+}
+.some-fact_head p{
+    padding: 50px 0;
+}
+/* our sponsors section start here  */
+.our-sponsors{
+    text-align: center;
+}
+.our-sponsors p{
+    padding: 50px;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sponsors img{
+    filter: grayscale(100%);
+}
+/* footer section start here  */
+footer{
+    background-color: #FFF4E7;
+    text-align: center;
+    margin: 200px auto 250px auto;
+    max-width: 1440px;
+}
+footer p{
+    padding: 30px;
+}
